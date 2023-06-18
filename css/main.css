@@ -1,0 +1,741 @@
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: #B50202;
+    border-radius: 30px;
+    border : 3px dashed #FFFFFF ;
+}
+
+.nav-back{
+    width: 100%;
+    height: 40px;
+    background-color: #B50202;
+}
+
+.logo{
+    inline-size: 160px;
+    margin-left: 40px;
+    margin-top: -10px;
+
+}
+
+nav ul{
+    list-style: none;
+}
+
+.nav-con{
+    margin-left: 690px;
+    margin-top: -69px;
+    
+}
+
+
+nav li{
+    float: left;
+    padding-left: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+nav li:hover{
+    cursor: pointer;
+    color:#FFC000 ;
+}
+
+.active{
+    color: white;
+    font-weight: bold;
+}
+
+.background{
+    height: 5090px;
+    background-color: #FFC000;
+    margin-top: -10px;
+}
+
+.sandwich-image{
+    width: 520px;
+    height: 780px;
+    background-image: url(../assets/new-sand.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 130px;
+}
+
+
+
+.logo-block{
+    width: 350px;
+    height: 350px;
+    margin-left: 650px;
+    margin-top: -660px;
+
+}
+
+.big-circles{
+    margin-left: 1000px;
+    margin-top: -390px;
+}
+
+.big-circle-one{
+    width: 250px;
+    height: 250px;
+    border: 3px dashed #FFFFFF;
+    border-radius: 50%;
+
+
+    margin-left: 35px;
+    
+}
+
+.big-circle-two{
+    width: 250px;
+    height: 250px;
+    border: 3px dashed #FFFFFF;
+    border-radius: 50%;
+
+    margin-left: 170px;
+    margin-top: -248px;
+}
+
+.welcome-text{
+    width: 571px;
+    height: 333px;
+    margin-left: 660px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+    margin-top: 40px;
+    }
+
+.btn-1{
+    width: 219px;
+    height: 64px;
+    background-color: transparent;
+    border: 3px dashed #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 660px;
+    margin-top: -58px;
+}
+
+.btn-1 p{
+    width: 212px;
+    height: 29px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn-1:hover{
+    cursor: pointer;
+    background-color: #B50202;
+    border : 3px dashed #FFFFFF solid;
+    color:white ;
+}
+
+.btn-2{
+    width: 341px;
+    height: 64px;
+    background-color: #B50202;
+    border: 3px dashed #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 890px;
+    margin-top: -65px;
+}
+
+.btn-2 p{
+    width: 341px;
+    height: 29px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+.btn-2:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border : 3px dashed #FFFFFF solid;
+    color:white ;
+}
+
+
+.sml-circles{
+
+    margin-top: -190px;
+    margin-left: 30px;
+
+}
+
+.sml-circle-one{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px dashed #FFFFFF;
+ 
+}
+
+.sml-circle-two{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px dashed #FFFFFF;
+    margin-top: -60px;
+}
+
+.about-us{
+    width: 100%;
+    height: 1170px;
+    background-color: #B50202;
+    margin-top: 100px;
+    border-radius: 74px;
+    border : 3px dashed #FFFFFF ;
+}
+
+.about-us-text{
+    width: 631px;
+    height: 75px;
+   
+    margin-left: 390px;
+    margin-top: 120px;
+}
+
+.text{
+    width: 828px;
+    height: 167px;
+    text-align: center;
+    margin-top: -170px;
+    margin-left: 310px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+.sml-circles-2{
+
+    padding-left: 100px;
+    margin-top: 70px;
+
+}
+
+.sml-circle-three{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px dashed #FFFFFF;
+ 
+}
+
+.sml-circle-four{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px dashed #FFFFFF;
+    margin-top: -60px;
+
+}
+
+
+
+.sml-circles-3{
+
+  
+    margin-top: -203px;
+    padding-left: 1190px;
+
+
+
+}
+
+.sml-circle-five{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px dashed #FFFFFF;
+ 
+}
+
+.sml-circle-six{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px dashed #FFFFFF;
+    margin-top: -60px;
+
+}
+
+
+.bread{
+    padding-left: 170px;
+    margin-top: 110px;
+ 
+
+}
+
+.step-one{
+    width: 381px;
+    height: 138px;
+    text-align: center;
+   
+    margin-left: -90px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.step-one h5{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.step-one p{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+.step-two{
+    width: 381px;
+    height: 138px;
+    text-align: center;
+   
+    margin-left: -90px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.step-two h5{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.step-two p{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.sauce{
+    margin-top: -70px;
+    margin-left: -20px;
+}
+.step-three{
+    width: 381px;
+    height: 138px;
+    text-align: center;
+   
+    margin-left: -115px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.step-three h5{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.step-three p{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+.btn-3{
+    width: 219px;
+    height: 64px;
+    background-color: transparent;
+    border: 3px dashed #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 630px;
+    margin-top: 68px;
+}
+
+.btn-3 p{
+    width: 212px;
+    height: 29px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn-3:hover{
+    cursor: pointer;
+    background-color: #FFC000;
+    border : 3px dashed #FFFFFF solid;
+    color:white ;
+}
+
+.subs-month{
+    width: 831px;
+    height: 167px;
+    margin-top: 220px;
+    padding-left: 450px;
+}
+
+.box{
+    width: 542px;
+    height: 502px;
+    border: 3px dashed #FFFFFF;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 120px;
+
+
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: #B50202;
+    border : 3px dashed #FFFFFF solid;
+    color:white ;
+}
+
+.sub-1{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/roast-beef-royale.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-1{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-1 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-1 p{
+    font-size: 20px;
+}
+
+.sub-description-1 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-2{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/honey-glazed-clucker.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-2{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-2 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-2 p{
+    font-size: 20px;
+}
+
+.sub-description-2 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-3{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/tuna-tango.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-3{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-3 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-3 p{
+    font-size: 20px;
+}
+
+.sub-description-3 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-4{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/ham-heaven.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-4{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-4 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-4 p{
+    font-size: 20px;
+}
+
+.sub-description-4 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-5{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/bacon-bliss.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-5{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-5 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-5 p{
+    font-size: 20px;
+}
+
+.sub-description-5 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-6{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/grill-master.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-6{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-6 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-6 p{
+    font-size: 20px;
+}
+
+.sub-description-6 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-7{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/meatball-maina.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-7{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-7 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-7 p{
+    font-size: 20px;
+}
+
+.sub-description-7 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-8{
+    width: 296px;
+    height: 216px;
+    background-image: url(../assets/pepparoni-perfection.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sub-description-8{
+    width: 381px;
+    height: 213px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #FFFFFF;
+}
+
+.sub-description-8 h5{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.sub-description-8 p{
+    font-size: 20px;
+}
+
+.sub-description-8 h4{
+ 
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color:#B50202 ;
+    margin-top: 190px;
+    border : 3px dashed #FFFFFF ;
+    border-radius: 35px;
+}
+.bottom{
+    width: 100%;
+    height: 40px;
+    background-color: #B50202;
+    margin-top: 105px;
+}
+
+.footer-logo{
+    inline-size: 160px;
+   
+    margin-left: 70px;
+    margin-top: -110px;
+}
+
+.copyright{
+    padding-left:510px ;
+    margin-top: -50px;
+}
+
+.socials{
+  
+    padding-left:1040px ;
+    margin-top: -50px;
+}
