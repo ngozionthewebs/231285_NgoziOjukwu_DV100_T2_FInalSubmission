@@ -104,3 +104,50 @@ liveTotal = () => {
 
 }
 
+showOrder = () => {
+
+    let area  = document.getElementById("orders")
+    let total = document.getElementById("liveTotal")
+
+    area.innerHTML = ""
+
+    let wholeTotal = 0
+
+    for (let i = 0; i < subOrder.length; i++ ){
+        
+        let name = subOrder[i].subName;
+        let bread = subOrder[i].subBread;
+        let toppings = subOrder[i].subToppings;
+        let sauce = subOrder[i].subSauce;
+        let price = subOrder[i].fullCost;
+
+        wholeTotal += price;
+
+        area.innerHTML += `
+            <div class="col-6" >
+
+                    <div class="card"  >
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">${name}</h5>
+                            <p>Bread Choice:${bread}</p>
+                            <p>Topping Choices: ${toppings}</p>
+                            <p>Sauce Choice: ${sauce}</p>
+                            <h6>Price: R${price}.00</h6>
+                            <p>+Add Coupon</p>
+                            <div class="coupon">SUBS SLAP</div>
+                        
+                            
+                        </div>
+                        
+                    </div>    
+            </div>
+            `
+
+        total.innerHTML = "R" + wholeTotal + ".00"      
+
+    }
+
+}
+

@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CheckOut </title>
+    <title>Check Out</title>
+
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,5 +21,73 @@
     <link rel="stylesheet" href="../css/checkout.css">
     <script src="../js/index.js"></script>
 
+
 </head>
 <body>
+
+<div class="background">
+
+    <nav>
+        <div class="nav-back"></div>
+        <div class="logo">
+            <img src="../assets/logo-thicker.svg">
+        </div>
+
+         <div class="nav-con">
+                <ul>
+                   <a href="../index.html"><li >Home</li></a>
+                   <a href="../pages/submaker.html"><li >Build A Sub</li></a>
+                   <a href="pages/checkout.html"><li class="active">Check Out</li></a>
+                </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row" id="orders">
+
+            <div class="col-6" >
+
+                <div class="card"  >
+
+                    <div class="card-body">
+
+                        <h5 class="card-title"><img src="../assets/sub-icon.svg">${name}</h5>
+                        <p>${bread}</p>
+                        <p> ${toppings}</p>
+                        <p> ${sauce}</p>
+                        <h6> R${price}.00</h6>
+                        <p>+Add Coupon</p>
+                        <div class="coupon">SUBS SLAP</div>
+                    
+                        
+                    </div>
+                    
+                </div>    
+            </div>
+
+             
+
+    
+
+            <div class="col-6">
+
+                <div class="sub-backdrop"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+</div>    
+    
+</body>
+</html>
