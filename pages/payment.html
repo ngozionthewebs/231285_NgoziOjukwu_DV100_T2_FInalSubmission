@@ -19,11 +19,14 @@
 
     <!--Internal Documents-->
     <link rel="stylesheet" href="../css/checkout.css">
+
     <script src="../js/index.js"></script>
+    <script src="../js/checkout.js"></script>
 
 
 </head>
-<body>
+
+<body onload="showCheckout()">
 
 <div class="background">
 
@@ -37,7 +40,7 @@
                 <ul>
                    <a href="../index.html"><li >Home</li></a>
                    <a href="../pages/submaker.html"><li >Build A Sub</li></a>
-                   <a href="pages/checkout.html"><li class="active">Check Out</li></a>
+                   <a href="payment.html"><li class="active">Check Out</li></a>
                 </ul>
 
         </div>
@@ -48,39 +51,68 @@
 
         <div class="row" id="orders">
 
-            <div class="col-6" >
+          
 
-                <div class="card"  >
-
-                    <div class="card-body">
-
-                        <h5 class="card-title"><img src="../assets/sub-icon.svg">${name}</h5>
-                        <p>${bread}</p>
-                        <p> ${toppings}</p>
-                        <p> ${sauce}</p>
-                        <h6> R${price}.00</h6>
-                        <p>+Add Coupon</p>
-                        <div class="coupon">SUBS SLAP</div>
-                    
-                        
-                    </div>
-                    
-                </div>    
-            </div>
-
-             
-
-    
 
             <div class="col-6">
 
-                <div class="sub-backdrop"></div>
+                <div class="checkout-box">
+                    <h3>Total</h3>
+                    <p id="amount" class="price-amount" >R0.00</p>
+
+                    <h4>+Add Coupon Code</h4>
+                    <input type="text" class="form-control" placeholder="#SUBSLAP012" id="promo">
+
+                    <div class="group">
+                        <button class="btn btn-primary" type="button" onclick="">Add Discount</button>  
+
+                        <button class="btn btn-primary" type="button" onclick="">Make Payment</button> 
+                    </div>    
+                    
+
+                </div>
+
+                
+
+
+               
 
             </div>
 
+            <div class="footer">
+
+        
+
+                <div class="bottom"></div>
+            
+                <div class="footer-logo">
+                    <img src="../assets/logo-thicker.svg">
+                </div>
+            
+                <div class="copyright">
+                    <img src="../assets/copyright.svg">
+            
+                </div>
+            
+                <div class="socials">
+                    <img src="../assets/socials.svg">
+            
+                </div>
+            
+            </div>
+
+           
+
         </div>
 
+        <div class="sub-backdrop"></div>
+
     </div>
+
+
+
+
+    
 
 </div>
 

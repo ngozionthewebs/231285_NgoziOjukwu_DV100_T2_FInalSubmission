@@ -19,6 +19,8 @@
 
     <!--Internal Documents-->
     <link rel="stylesheet" href="../css/sub.css">
+
+
     <script src="../js/index.js"></script>
 
 </head>
@@ -38,7 +40,7 @@
                 <ul>
                    <a href="../index.html"><li >Home</li></a>
                    <a href="pages/submaker.html"><li class="active">Build A Sub</li></a>
-                   <a href="../pages/checkout.html"><li>Check Out</li></a>
+                   <a href="../pages/payment.html"><li>Check Out</li></a>
                 </ul>
 
         </div>
@@ -305,13 +307,42 @@
 
 
 
-    <button class="btn-main" type="button" onclick="makeSub(); showOrder()">MAKE MY SUB! </button>
-     
+    <button class="btn-main" type="button" onclick="makeSub(); showOrder(); ">MAKE MY SUB! </button>
 
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <div class="output">
+                <div class="heading">
+                    <h3>Current Order:</h3>
+
+                    <div class="total">
+                        <h4 id="orderTotal">R0.00</h4>
+                    </div>
+
+                </div>
+            <div id="orders">
+        
+                </div>
+                <div class="button-containter">
+                    <button class="btn btn-primary" type="button" onclick="checkOut()">Head to Checkout!</button>    
+                </div>
+        
+            </div>
+            
+
+        </div>
+
+    </div>
+
+     
+    
    </form>
    <div class="sandwich-backdrop"></div>  
     
-   </div>
+
 
  
 

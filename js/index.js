@@ -127,27 +127,31 @@ showOrder = () => {
             <div class="col-6" >
 
                     <div class="card"  >
-
+        
                         <div class="card-body">
-
-                            <h5 class="card-title">${name}</h5>
-                            <p>Bread Choice:${bread}</p>
-                            <p>Topping Choices: ${toppings}</p>
-                            <p>Sauce Choice: ${sauce}</p>
-                            <h6>Price: R${price}.00</h6>
-                            <p>+Add Coupon</p>
-                            <div class="coupon">SUBS SLAP</div>
+        
+                            <h5 class="card-title"><img src="../assets/sub-icon.svg">${name}</h5>
+                            <p>${bread}</p>
+                            <p> ${toppings}</p>
+                            <p> ${sauce}</p>
+                            <h6> R${price}.00</h6>
                         
                             
                         </div>
                         
                     </div>    
-            </div>
+            </div> 
             `
 
         total.innerHTML = "R" + wholeTotal + ".00"      
 
     }
 
+}
+
+checkOut = () => {
+    let info = JSON.stringify(subOrder)
+    localStorage.setItem('order', info )
+    window.location.href= 'pages/payment.html'
 }
 

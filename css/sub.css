@@ -51,7 +51,7 @@ nav li:hover{
 }
 
 .background{
-    height: 1000px;
+    height: 1600px;
     background-color: #FFC000;
     margin-top: -10px;
 }
@@ -61,7 +61,7 @@ nav li:hover{
     height: 630px;
     background-image: url(../assets/backdrop-2.png);
     margin-left: 100px;
-    margin-top: -480px;
+    margin-top: -580px;
 }
 
 .big-circles{
@@ -160,6 +160,61 @@ form{
     font-size: 20px;
     margin-left: 610px;
     margin-top: 30px;
+}
+
+
+.output{
+    margin-top: 100px;
+}
+.output h3{
+    color: #FFFFFF;
+}
+.output h4{
+    margin-left: 670px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.btn{
+    margin-left: 640px;
+    background-color: #B50202;
+    border: 1px #B50202 solid;
+}
+
+.card{
+    width: 490px;
+    margin-top: 20px;
+    margin-left: 490px;
+    margin-bottom: 40px;
+    background-color: rgba(181, 2, 2, 0.83);
+    color: #FFFFFF;
+    border : 3px dashed #FFFFFF ;
+    border-radius: 20px;
+    padding-left: 30px;
+    
+
+
+
+}
+
+.card-title{
+
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.card p{
+  
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.card h6{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 
 

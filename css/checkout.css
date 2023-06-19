@@ -51,10 +51,10 @@ nav li:hover{
 }
 
 .background{
-    height: 1200px;
+    height: 1420px;
     background-color:#B12800;
     margin-top: -10px;
-    border: 2px dashed #000000;
+
 
 }
 
@@ -63,16 +63,16 @@ nav li:hover{
     width: 931px;
     height: 844.73px;
     background-image: url(../assets/sub-nobackground.png);
-    margin-left: 490px;
-    margin-top: 100px;
+    margin-left: 350px;
+    margin-top: -1000px;
     
 }
 
 .card{
-    margin-top: 80px;
+
+    margin-top: -1300px;
     margin-left: 20px;
-    background-color: #FFC000;
-    border: 3px dashed #FFFFFF;
+    background-color: rgba(255, 192, 0, 0.83);
     color: #FFFFFF;
     border-radius: 20px;
     padding-left: 30px;
@@ -99,14 +99,101 @@ nav li:hover{
     font-size: 20px;
     font-weight: 700;
 }
-.coupon{
-    width: 236px;
-    height: 64px;
-    background-color: #FFFFFF;
-    border: 2px dashed #000000;
-    border-radius: 20px;
-    margin-top: -27px;
+
+
+.form-control{
+    width: 332px;
+    height: 90px;
+    border-radius: 25px;
+    margin-left: 145px;
+    border: 2px dashed #B50202;
     padding-left: 20px;
-    padding-top: 15px;
-    color: grey;
+
+}
+
+.group{
+    margin-left: 170px;
+    margin-top: 30px;
+
+}
+
+.btn{
+    background-color: #B50202;
+    border: #B50202 1px solid;
+}
+
+
+
+
+.checkout-box{
+    width: 600px;
+    height: 1201px;
+    background-color: rgba(255, 192, 0, 0.83);
+    margin-left: 800px;
+
+    border-radius: 22px;
+    
+}
+
+
+.checkout-box h3{
+
+    font-size: 78px;
+    font-weight: 700;
+    color: white;
+    padding-left: 220px;
+    padding-top: 100px;
+
+
+}
+
+.checkout-box p{
+    font-size: 88px;
+    font-weight: 400;
+    color: white;
+    padding-left: 210px;
+   
+}
+
+.checkout-box h4{
+    text-align: center;
+    color: #B50202;
+    font-weight: 700;
+    padding-top: 30px;
+
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color:#B50202 ;
+    border : 3px dashed #FFFFFF ;
+    border-radius: 35px;
+    margin-top: -20px;
+}
+.bottom{
+    width: 100%;
+    height: 40px;
+    background-color: #B50202;
+    margin-top: 105px;
+}
+
+.footer-logo{
+    inline-size: 160px;
+   
+    margin-left: 70px;
+    margin-top: -110px;
+}
+
+.copyright{
+    padding-left:510px ;
+    margin-top: -50px;
+}
+
+.socials{
+  
+    padding-left:1040px ;
+    margin-top: -50px;
 }
